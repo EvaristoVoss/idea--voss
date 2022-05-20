@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=}, initial-scale=1.0">
     <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
@@ -13,48 +15,77 @@
         
        </header>
         <nav>
-           <ul id="lista1">
-       
-           <li> <a href="../index.html" >Inicio</a></li> 
-               <li> <span class="separador"></span><a href="comprar.html">Comprar</a></li>
-               <li> <span class="separador"></span><a href="productos.html">Productos</a> </li>
-               <li> <span class="separador"></span><a href="contacto.html" >Contacto</a> </li>
-               <li> <span class="separador"></span><a href="preguntasfrecuentes.html" >Preguntas Frecuentes</a> </li>
-              
-           </ul>
-   
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="comprar.html">Comprar</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="preguntasfrecuentes.html">Preguntas Frecuentes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            
+              </ul>
        </nav>   
     <h2>Contacto</h2>
-    <main>
-        <form>
-            <fieldset>
-                <legend>Formulario de Contacto</legend>
-                <label for="">Nombre</label>
-            <input type="text" placeholder="Ingrese su Nombre Aquí">
-            <br><br>
-            <label for="">Apellido</label>
-            <input type="text" placeholder="Ingrese su Apellido Aquí">
-            <br><br>
-            <label for="">E-mail</label>
-            <input type="text" placeholder="Ingrese su e-mail Aquí">
-            <br><br>      
-            <label for="">Telefono de Contacto</label>
-            <input type="text" placeholder="Ingrese su Telefono Aquí">
-            <br><br>
-            <label for="">Tu mesaje</label>
-            <br>  
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <br><br>
-            <input type="submit">
-            <input type="reset">
 
-            </fieldset> 
-            
-        </form>
-    </main>
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Su nombre/Nombre de la empresa</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">e-mail</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Direccion</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Mitre">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Numero de telefono/celular</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="(0387)">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Provincia</label>
+          <select id="inputState" class="form-select">
+            <option selected>Elegir Provincia</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Su mensaje</label>
+          </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+            Recordarme
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Enviar Mensaje/Pedido</button>
+        </div>
+      </form>
 
     <footer  id="footer">
         <p>Sitio web creado por <strong>Evaristo Voss</strong></p> 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 </body>
 </html>
