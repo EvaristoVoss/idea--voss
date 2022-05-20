@@ -4,7 +4,10 @@
     margin: 0%;
     padding: 0%;
 }
-
+.nav-link  {
+ color: orange;
+    
+}
 
 header {
     margin: 0%;
@@ -12,17 +15,7 @@ header {
     background-color: beige;
     grid-area: header;
     background-image: linear-gradient(to left, orange,beige,white);
-    
-}
-
-.bodyPrincipal {
-    display:grid;
-    grid-template-areas: "header header header"
-    "ofert ofert ofert"
-    "cajasvarias cajasvarias cajasvarias"
-    "infox infox infox"
-    "footer footer footer"    
-}
+    }
 
 h1 {
     text-align: center;
@@ -35,9 +28,12 @@ h1 {
     width: 150px;
 }
 
-.box { grid-area: cajasvarias;
-    
+.ofert {  text-align: center;
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
 }
+
 
 #lista1 {
     font-family: 'Montserrat', sans-serif;
@@ -119,17 +115,6 @@ a {
     background-size: cover;
     text-decoration: none;
 }
-
-.ofertas {
-    grid-area: ofert;
-    text-decoration: none;
-    font-weight: bold;
-    color: red;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    font-size: 50px;
-;}
 
 
 .caja {
