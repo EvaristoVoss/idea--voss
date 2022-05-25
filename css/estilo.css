@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Pacifico&display=swap');
 * {
     margin: 0%;
     padding: 0%;
 }
 .nav-link  {
- color: orange;
+ color: orangered;
     
 }
 
@@ -18,11 +18,16 @@ header {
     }
 
 h1 {
+    color: orange;
     text-align: center;
-    color: coral;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pacifico', cursive;
     font-size: 75px;
-}
+    }
+
+.bodyPrincipal
+{ 
+background-color: beige;    }
+
 
 .imagenLogo {
     width: 150px;
