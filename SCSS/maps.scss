@@ -1,9 +1,0 @@
-$mapRedes: (facebook: blue, twitter: lightblue);
-
-@each $redSocial in $mapRedes {
-
-    .#{$redSocial} {
-
-        color: $colorRedSocial
-    }
-}
