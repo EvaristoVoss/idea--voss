@@ -17,7 +17,7 @@ header {
   padding: 0%;
   background-color: beige;
   grid-area: header;
-  background-color: beige; }
+  background-color: white; }
 
 h1 {
   color: orange;
@@ -66,7 +66,7 @@ h2 {
   text-align: center;
   color: chocolate;
   font-family: "Montserrat", sans-serif;
-  font-size: medium; }
+  font-size: large; }
 
 h3 {
   display: inline;
@@ -110,10 +110,10 @@ h3 {
 
 .oferProducts {
   max-width: 800px;
-  padding: 1rem;
+  padding: 0;
   margin: 0 auto;
   display: grid;
-  grid-template-rows: 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
   grid-gap: 1rem; }
 
 .ofer1 {

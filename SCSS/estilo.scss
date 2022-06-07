@@ -31,7 +31,7 @@ header {
 	padding: 0%;
 	background-color: $background-color_1;
 	grid-area: header;
-	background-color: beige
+	background-color: white
 }
 h1 {
 	color: $color_2;
@@ -82,7 +82,7 @@ h2 {
 	text-align: center;
 	color: $color_7;
 	font-family: $font-family_2;
-	font-size: medium;
+	font-size: large;
 }
 h3 {
 	display: inline;
@@ -126,10 +126,10 @@ h3 {
 }
 .oferProducts {
 	max-width: 800px;
-	padding: 1rem;
+	padding: 0;
 	margin: 0 auto;
 	display: grid;
-	grid-template-rows: 100px 100px 100px 100px 100px;
+	grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
 	grid-gap: 1rem;
 }
 .ofer1 {
