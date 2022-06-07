@@ -5,6 +5,9 @@ footer {
   font-family: "Montserrat", sans-serif;
   grid-area: footer; }
 
+.whatsapp {
+  width: 25px; }
+
 * {
   margin: 0%;
   padding: 0%; }
