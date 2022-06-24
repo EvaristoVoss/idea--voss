@@ -8,13 +8,6 @@ footer {
 .whatsapp {
   width: 25px; }
 
-* {
-  margin: 0%;
-  padding: 0%; }
-
-.nav-link {
-  color: orangered; }
-
 header {
   margin: 0%;
   padding: 0%;
@@ -28,17 +21,8 @@ h1 {
   font-family: "Pacifico", cursive;
   font-size: 75px; }
 
-.bodyPrincipal {
-  background-color: beige; }
-
 .imagenLogo {
   width: 150px; }
-
-.ofert {
-  text-align: center;
-  color: red;
-  font-family: "Montserrat", sans-serif;
-  font-size: xx-large; }
 
 #lista1 {
   font-family: "Montserrat", sans-serif;
@@ -53,6 +37,83 @@ h1 {
 
 .separador {
   color: gray; }
+
+.mapaubi {
+  grid-area: mapaubi;
+  max-width: 1000px;
+  padding: 0;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center; }
+
+.formu {
+  grid-area: formu;
+  max-width: 1000px;
+  padding: 0;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center; }
+
+.oferProducts {
+  max-width: 800px;
+  padding: 0;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
+  grid-gap: 1rem; }
+
+.ofer1 {
+  display: grid;
+  grid-gap: 1rem;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px; }
+
+.productoOferta1 {
+  display: grid;
+  grid-row: 1 / 3; }
+
+.productoOferta2 {
+  display: grid;
+  grid-row: 1 / 3; }
+
+.productoOferta3 {
+  display: grid;
+  grid-row: 1 / 3; }
+
+.productoOferta4 {
+  display: grid;
+  display: grid;
+  grid-row: 1 / 3; }
+
+.productoOferta5 {
+  display: grid;
+  grid-row: 1 / 3; }
+
+.productoOferta6 {
+  display: grid;
+  grid-row: 1 / 3; }
+
+.productoOferta7 {
+  display: grid;
+  grid-row: 1 / 3; }
+
+* {
+  margin: 0%;
+  padding: 0%; }
+
+.nav-link {
+  color: orangered; }
+
+.bodyPrincipal {
+  background-color: beige; }
+
+.ofert {
+  text-align: center;
+  color: red;
+  font-family: "Montserrat", sans-serif;
+  font-size: xx-large; }
 
 a {
   color: olive;
@@ -111,43 +172,6 @@ h3 {
   margin: 10px;
   padding: 10px; }
 
-.oferProducts {
-  max-width: 800px;
-  padding: 0;
-  margin: 0 auto;
-  display: grid;
-  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
-  grid-gap: 1rem; }
-
-.ofer1 {
-  display: grid;
-  grid-gap: 1rem;
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px; }
-
-.productoOferta1 {
-  display: grid;
-  grid-row: 1 / 3; }
-
-.productoOferta2 {
-  display: grid;
-  grid-row: 1 / 3; }
-
-.productoOferta3 {
-  display: grid;
-  grid-row: 1 / 3; }
-
-.productoOferta4 {
-  display: grid;
-  display: grid;
-  grid-row: 1 / 3; }
-
-.productoOferta5 {
-  display: grid;
-  grid-row: 1 / 3; }
-
 h5 {
   text-align: center;
   color: chocolate;
@@ -155,7 +179,11 @@ h5 {
   font-size: large; }
 
 .descri {
-  text-align: right;
   color: black;
   font-family: "Montserrat", sans-serif;
-  font-size: large; }
+  font-size: large;
+  padding: 0;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  grid-area: descri; }

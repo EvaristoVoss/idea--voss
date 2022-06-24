@@ -1,0 +1,47 @@
+.oferProducts {
+	max-width: 800px;
+	padding: 0;
+	margin: 0 auto;
+	display: grid;
+	grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
+	grid-gap: 1rem;
+}
+.ofer1 {
+	display: grid;
+	grid-gap: 1rem;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+.productoOferta1 {
+	display: grid;
+	grid-row: 1 / 3;
+}
+.productoOferta2 {
+	display: grid;
+	grid-row: 1 / 3;
+}
+.productoOferta3 {
+	display: grid;
+	grid-row: 1 / 3;
+}
+.productoOferta4 {
+	display: grid;
+	display: grid;
+	grid-row: 1 / 3;
+}
+.productoOferta5 {
+	display: grid;
+	grid-row: 1 / 3;
+}
+
+.productoOferta6 {
+	display: grid;
+	grid-row: 1 / 3;
+}
+
+.productoOferta7 {
+	display: grid;
+	grid-row: 1 / 3;
+}

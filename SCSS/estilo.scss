@@ -17,7 +17,9 @@ $background-color_2: lightgray;
 @import "https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Pacifico&display=swap";
 @import "footer";
-
+@import "header";
+@import "divs";
+@import "products";
 
 * {
 	margin: 0%;
@@ -27,46 +29,17 @@ $background-color_2: lightgray;
 	color: $color_1;
 }
 
-header {
-	margin: 0%;
-	padding: 0%;
-	background-color: $background-color_1;
-	grid-area: header;
-	background-color: white
-}
-h1 {
-	color: $color_2;
-	text-align: center;
-	font-family: $font-family_1;
-	font-size: 75px;
-}
 .bodyPrincipal {
 	background-color: $background-color_1;
 }
-.imagenLogo {
-	width: 150px;
-}
+
 .ofert {
 	text-align: center;
 	color: $color_3;
 	font-family: $font-family_2;
 	font-size: xx-large;
 }
-#lista1 {
-	font-family: $font-family_2;
-	font-weight: bold;
-	font-size: 13px;
-	text-align: center;
-	li {
-		display: inline;
-		padding-left: 3px;
-		padding-right: 3px;
-		background-color: $background-color_1;
-	}
-}
-.separador {
-	color: $color_4;
-}
+
 a {
 	color: $color_5;
 	text-decoration: none;
@@ -125,43 +98,6 @@ h3 {
 	margin: 10px;
 	padding: 10px;
 }
-.oferProducts {
-	max-width: 800px;
-	padding: 0;
-	margin: 0 auto;
-	display: grid;
-	grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
-	grid-gap: 1rem;
-}
-.ofer1 {
-	display: grid;
-	grid-gap: 1rem;
-	object-fit: cover;
-	width: 100%;
-	height: 100%;
-	border-radius: 10px;
-}
-.productoOferta1 {
-	display: grid;
-	grid-row: 1 / 3;
-}
-.productoOferta2 {
-	display: grid;
-	grid-row: 1 / 3;
-}
-.productoOferta3 {
-	display: grid;
-	grid-row: 1 / 3;
-}
-.productoOferta4 {
-	display: grid;
-	display: grid;
-	grid-row: 1 / 3;
-}
-.productoOferta5 {
-	display: grid;
-	grid-row: 1 / 3;
-}
 
 h5 {
 	text-align: center;
@@ -171,9 +107,13 @@ h5 {
 }
 
 .descri {
-	text-align: right;
-	color: $color_8;
-	font-family: $font-family_2;
-	font-size: large;
+color: $color_8;
+font-family: $font-family_2;
+font-size: large;
+padding: 0;
+margin: 0 auto;
+display: grid;
+justify-content: center;
+grid-area: descri;
 }
 
