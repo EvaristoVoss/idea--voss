@@ -18,6 +18,7 @@ $background-color_2: lightgray;
 @import "https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Pacifico&display=swap";
 @import "footer";
 
+
 * {
 	margin: 0%;
 	padding: 0%;
@@ -160,5 +161,19 @@ h3 {
 .productoOferta5 {
 	display: grid;
 	grid-row: 1 / 3;
+}
+
+h5 {
+	text-align: center;
+	color: $color_7;
+	font-family: $font-family_2;
+	font-size: large;
+}
+
+.descri {
+	text-align: right;
+	color: $color_8;
+	font-family: $font-family_2;
+	font-size: large;
 }
 

@@ -147,3 +147,15 @@ h3 {
 .productoOferta5 {
   display: grid;
   grid-row: 1 / 3; }
+
+h5 {
+  text-align: center;
+  color: chocolate;
+  font-family: "Montserrat", sans-serif;
+  font-size: large; }
+
+.descri {
+  text-align: right;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: large; }
