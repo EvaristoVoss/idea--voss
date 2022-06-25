@@ -1,7 +1,9 @@
 footer {
-	color: $color_6;
+	margin:0.5%;
+	padding: 0.2%;
+	background-color: $background-color_4; 
+	color: $color_2;
 	font-family: $font-family_2;
-	grid-area: footer;
 }
 
 .whatsapp {width: 25px;}

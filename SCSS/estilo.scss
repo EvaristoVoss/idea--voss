@@ -9,17 +9,22 @@ $color_8: black;
 $color_9: darkolivegreen;
 $color_10: darkred;
 $color_11: beige;
+$color_12: white;
 $font-family_1: 'Pacifico', cursive;
 $font-family_2: 'Montserrat', sans-serif;
 $background-color_1: beige;
 $background-color_2: lightgray;
+$background-color_3: lightsalmon ;
+$background-color_4: white;
 
 @import "https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Pacifico&display=swap";
+@import "texts";
 @import "footer";
 @import "header";
 @import "divs";
 @import "products";
+@import "maps";
 
 * {
 	margin: 0%;
@@ -33,12 +38,7 @@ $background-color_2: lightgray;
 	background-color: $background-color_1;
 }
 
-.ofert {
-	text-align: center;
-	color: $color_3;
-	font-family: $font-family_2;
-	font-size: xx-large;
-}
+
 
 a {
 	color: $color_5;
@@ -52,19 +52,7 @@ a {
 		background-color: $background-color_2;
 	}
 }
-h2 {
-	text-align: center;
-	color: $color_7;
-	font-family: $font-family_2;
-	font-size: large;
-}
-h3 {
-	display: inline;
-	text-align: left;
-	color: $color_7;
-	font-family: $font-family_2;
-	font-size: larger;
-}
+
 .infox {
 	text-align: center;
 	color: $color_8;
@@ -73,11 +61,7 @@ h3 {
 	font-family: $font-family_2;
 	grid-area: infox;
 }
-#footer {
-	color: $color_6;
-	font-family: $font-family_2;
-	grid-area: footer;
-}
+
 .ul {
 	display: inline;
 	color: $color_10;
@@ -99,12 +83,6 @@ h3 {
 	padding: 10px;
 }
 
-h5 {
-	text-align: center;
-	color: $color_7;
-	font-family: $font-family_2;
-	font-size: large;
-}
 
 .descri {
 color: $color_8;

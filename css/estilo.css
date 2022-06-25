@@ -1,9 +1,48 @@
 @import "https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Pacifico&display=swap";
-footer {
-  color: green;
+h1 {
+  color: orange;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 75px; }
+
+h2 {
+  text-align: center;
+  color: chocolate;
   font-family: "Montserrat", sans-serif;
-  grid-area: footer; }
+  font-size: large; }
+
+h3 {
+  display: inline;
+  text-align: left;
+  color: chocolate;
+  font-family: "Montserrat", sans-serif;
+  font-size: larger; }
+
+h4 {
+  text-align: center;
+  color: chocolate;
+  font-family: "Montserrat", sans-serif;
+  font-size: large; }
+
+h5 {
+  text-align: center;
+  color: chocolate;
+  font-family: "Montserrat", sans-serif;
+  font-size: large; }
+
+.ofert {
+  text-align: center;
+  color: red;
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px; }
+
+footer {
+  margin: 0.5%;
+  padding: 0.2%;
+  background-color: white;
+  color: orange;
+  font-family: "Montserrat", sans-serif; }
 
 .whatsapp {
   width: 25px; }
@@ -14,12 +53,6 @@ header {
   background-color: beige;
   grid-area: header;
   background-color: white; }
-
-h1 {
-  color: orange;
-  text-align: center;
-  font-family: "Pacifico", cursive;
-  font-size: 75px; }
 
 .imagenLogo {
   width: 150px; }
@@ -53,6 +86,14 @@ h1 {
   margin: 0 auto;
   display: grid;
   justify-content: center; }
+
+.container {
+  background-color: beige; }
+
+.big {
+  background-color: beige;
+  margin: 1%;
+  padding: 1%; }
 
 .oferProducts {
   max-width: 800px;
@@ -109,12 +150,6 @@ h1 {
 .bodyPrincipal {
   background-color: beige; }
 
-.ofert {
-  text-align: center;
-  color: red;
-  font-family: "Montserrat", sans-serif;
-  font-size: xx-large; }
-
 a {
   color: olive;
   text-decoration: none;
@@ -126,19 +161,6 @@ a {
     color: green;
     background-color: lightgray; }
 
-h2 {
-  text-align: center;
-  color: chocolate;
-  font-family: "Montserrat", sans-serif;
-  font-size: large; }
-
-h3 {
-  display: inline;
-  text-align: left;
-  color: chocolate;
-  font-family: "Montserrat", sans-serif;
-  font-size: larger; }
-
 .infox {
   text-align: center;
   color: black;
@@ -146,11 +168,6 @@ h3 {
   font-size: larger;
   font-family: "Montserrat", sans-serif;
   grid-area: infox; }
-
-#footer {
-  color: green;
-  font-family: "Montserrat", sans-serif;
-  grid-area: footer; }
 
 .ul {
   display: inline;
@@ -171,12 +188,6 @@ h3 {
   height: 200px;
   margin: 10px;
   padding: 10px; }
-
-h5 {
-  text-align: center;
-  color: chocolate;
-  font-family: "Montserrat", sans-serif;
-  font-size: large; }
 
 .descri {
   color: black;
