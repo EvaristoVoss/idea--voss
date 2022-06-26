@@ -4,7 +4,7 @@ h1 {
   color: orange;
   text-align: center;
   font-family: "Pacifico", cursive;
-  font-size: 75px; }
+  font-size: 55px; }
 
 h2 {
   text-align: center;
@@ -21,9 +21,9 @@ h3 {
 
 h4 {
   text-align: center;
-  color: chocolate;
+  color: olive;
   font-family: "Montserrat", sans-serif;
-  font-size: large; }
+  font-size: 40px; }
 
 h5 {
   text-align: center;
@@ -95,50 +95,24 @@ header {
   margin: 1%;
   padding: 1%; }
 
-.oferProducts {
-  max-width: 800px;
+.compraPro {
+  grid-area: compraPro;
+  max-width: 1000px;
   padding: 0;
   margin: 0 auto;
   display: grid;
-  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
-  grid-gap: 1rem; }
+  width: auto;
+  height: auto;
+  justify-content: center; }
 
-.ofer1 {
+.buscar {
+  grid-area: buscar;
+  margin: 0.5%;
+  padding: 0.5%;
   display: grid;
-  grid-gap: 1rem;
-  object-fit: cover;
+  justify-items: center;
   width: 100%;
-  height: 100%;
-  border-radius: 10px; }
-
-.productoOferta1 {
-  display: grid;
-  grid-row: 1 / 3; }
-
-.productoOferta2 {
-  display: grid;
-  grid-row: 1 / 3; }
-
-.productoOferta3 {
-  display: grid;
-  grid-row: 1 / 3; }
-
-.productoOferta4 {
-  display: grid;
-  display: grid;
-  grid-row: 1 / 3; }
-
-.productoOferta5 {
-  display: grid;
-  grid-row: 1 / 3; }
-
-.productoOferta6 {
-  display: grid;
-  grid-row: 1 / 3; }
-
-.productoOferta7 {
-  display: grid;
-  grid-row: 1 / 3; }
+  height: 30%; }
 
 * {
   margin: 0%;

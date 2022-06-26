@@ -23,4 +23,24 @@ background-color: $background-color_1;	}
 	background-color: $background-color_1;
 	margin: 1%;
 	padding: 1%;	}
-	
+
+.compraPro {
+	grid-area: compraPro;
+	max-width: 1000px;
+	padding: 0;
+	margin: 0 auto;
+	display: grid;
+	width: auto;
+	height: auto;
+	justify-content: center;
+		}
+
+.buscar {
+	grid-area: buscar;
+	margin: 0.5%;
+	padding: 0.5%;
+	display: grid;
+	justify-items: center;
+	width: 100%;
+	height: 30%;
+		}
