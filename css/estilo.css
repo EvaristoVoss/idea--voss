@@ -92,17 +92,12 @@ header {
       width: 30%;
       margin: 20px;
       text-align: center; }
-      #section-contenedor #section-productos .card-product .img-container {
-        overflow: hidden;
-        position: relative; }
-        #section-contenedor #section-productos .card-product .img-container img {
-          width: 100%;
-          height: 50%;
-          margin: 10px; }
       #section-contenedor #section-productos .card-product .info-producto {
         display: flex;
         flex-direction: column; }
-  #section-contenedor #section-micarrito {
+    #section-contenedor #section-productos .boton {
+      background-color: olivedrab; }
+  #section-contenedor #section-carrito {
     width: 30%;
     height: 30%;
     margin: 30px;
@@ -114,12 +109,12 @@ header {
     border-radius: 10px;
     position: sticky;
     top: 200px; }
-    #section-contenedor #section-micarrito div {
+    #section-contenedor #section-carrito div {
       display: flex;
       justify-content: center;
       margin: 10px; }
-      #section-contenedor #section-micarrito div h2,
-      #section-contenedor #section-micarrito div h3 {
+      #section-contenedor #section-carrito div h2,
+      #section-contenedor #section-carrito div h3 {
         font-size: 25px; }
 
 .formu {
