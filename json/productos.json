@@ -1,0 +1,57 @@
+[{
+    "id": 1,
+    "tipo": "Lacteos",
+    "nombre": "Queso Cremoso La Paulina x 1kg",
+    "precio": 3300,
+    "foto": "../imagenes/QUESO.jpg"  
+}, {
+    "id": 2,
+    "tipo": "Lacteos",
+    "nombre": "Dulce de Leche Campo Quijano x 1kg",
+    "precio": 1200,
+    "foto": "../imagenes/DUCEDL.jpg"
+}, {
+    "id": 3,
+    "tipo": "Lacteos",
+    "nombre": "Crema Chantilly en polvo x 250g",
+    "precio": 450,
+    "foto": "../imagenes/crema.png"
+
+}, {
+    "id": 4,
+    "tipo": "Fiambres",
+    "nombre": "Jamon Cocido Paladini x 1 kg",
+    "precio": 3125,
+    "foto":"../imagenes/jamon.jpg"
+}, {
+    "id": 5,
+    "tipo": "Fiambres",
+    "nombre": "Mortadela Paladini x 1kg",
+    "precio": 1400,
+    "foto": "../imagenes/mortadela-familiar.png"
+}, {
+    "id": 6,
+    "tipo": "Fiambres",
+    "nombre": "Queso Pesto Paladini x 1 kg",
+    "precio": 1500,
+    "foto": "../imagenes/pesto.jpg"
+}, {
+    "id": 7,
+    "tipo": "Reposteria",
+    "nombre": "Harina Industrial x 1kg",
+    "precio": 4500,
+    "foto": "../imagenes/harinas_01.jpg"
+}, {
+    "id": 8,
+    "tipo": "Reposteria",
+    "nombre": "Pan de Miga xkg",
+    "precio": 3800,
+    "foto": "../imagenes/panmigacls.jpg"
+}, {
+    "id": 9,
+    "tipo": "Reposteria",
+    "nombre": "Bizcochuelo Pre-mezcla x 1kg",
+    "precio": 800,
+    "foto": "../imagenes/mexcla.jpg"
+}
+]

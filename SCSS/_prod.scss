@@ -1,0 +1,31 @@
+#section-productos {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-end;
+
+
+        .card-product {
+            margin: 20px 0px;
+            text-align: center;
+
+
+            .img-container {
+                position: relative;
+
+                img {
+                    width: 20em;
+                    height: 50%;
+                    margin: 10px;
+                }
+            }
+
+
+            .info-producto {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
